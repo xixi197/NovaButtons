@@ -1,0 +1,11 @@
+.DS_Store
+build/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+.svn
+.hg
+
+*~
+*.swp
+

@@ -10,9 +10,11 @@
 		74CC160314FB2EA600C45974 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CC160214FB2EA600C45974 /* Cocoa.framework */; };
 		74CC160D14FB2EA600C45974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74CC160B14FB2EA600C45974 /* InfoPlist.strings */; };
 		74CC160F14FB2EA600C45974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC160E14FB2EA600C45974 /* main.m */; };
-		74CC161314FB2EA600C45974 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 74CC161114FB2EA600C45974 /* Credits.rtf */; };
 		74CC161614FB2EA600C45974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC161514FB2EA600C45974 /* AppDelegate.m */; };
 		74CC161914FB2EA700C45974 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CC161714FB2EA700C45974 /* MainMenu.xib */; };
+		74CC162E14FB501000C45974 /* 37x-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CC162D14FB501000C45974 /* 37x-Checkmark.png */; };
+		74CC163114FB557A00C45974 /* NovaBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC163014FB53D400C45974 /* NovaBaseButton.m */; };
+		74CC163814FB5A1700C45974 /* NovaToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC163714FB5A0700C45974 /* NovaToggleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,18 @@
 		74CC160514FB2EA600C45974 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		74CC160614FB2EA600C45974 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		74CC160714FB2EA600C45974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		74CC160A14FB2EA600C45974 /* NovaButtons-Info.plist */ = {isa = PBXFileReference; path = "NovaButtons-Info.plist"; sourceTree = "<group>"; };
+		74CC160A14FB2EA600C45974 /* NovaButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NovaButtons-Info.plist"; sourceTree = "<group>"; };
 		74CC160C14FB2EA600C45974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74CC160E14FB2EA600C45974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		74CC161014FB2EA600C45974 /* NovaButtons-Prefix.pch */ = {isa = PBXFileReference; path = "NovaButtons-Prefix.pch"; sourceTree = "<group>"; };
-		74CC161214FB2EA600C45974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		74CC161414FB2EA600C45974 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		74CC161014FB2EA600C45974 /* NovaButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NovaButtons-Prefix.pch"; sourceTree = "<group>"; };
+		74CC161414FB2EA600C45974 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74CC161514FB2EA600C45974 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		74CC161814FB2EA700C45974 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		74CC162D14FB501000C45974 /* 37x-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark.png"; sourceTree = "<group>"; };
+		74CC162F14FB53D400C45974 /* NovaBaseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NovaBaseButton.h; sourceTree = "<group>"; };
+		74CC163014FB53D400C45974 /* NovaBaseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NovaBaseButton.m; sourceTree = "<group>"; };
+		74CC163614FB5A0700C45974 /* NovaToggleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NovaToggleButton.h; sourceTree = "<group>"; };
+		74CC163714FB5A0700C45974 /* NovaToggleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NovaToggleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				74CC161414FB2EA600C45974 /* AppDelegate.h */,
 				74CC161514FB2EA600C45974 /* AppDelegate.m */,
 				74CC161714FB2EA700C45974 /* MainMenu.xib */,
+				74CC162F14FB53D400C45974 /* NovaBaseButton.h */,
+				74CC163014FB53D400C45974 /* NovaBaseButton.m */,
+				74CC163614FB5A0700C45974 /* NovaToggleButton.h */,
+				74CC163714FB5A0700C45974 /* NovaToggleButton.m */,
 				74CC160914FB2EA600C45974 /* Supporting Files */,
 			);
 			path = NovaButtons;
@@ -97,7 +107,7 @@
 				74CC160B14FB2EA600C45974 /* InfoPlist.strings */,
 				74CC160E14FB2EA600C45974 /* main.m */,
 				74CC161014FB2EA600C45974 /* NovaButtons-Prefix.pch */,
-				74CC161114FB2EA600C45974 /* Credits.rtf */,
+				74CC162D14FB501000C45974 /* 37x-Checkmark.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,8 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				74CC160D14FB2EA600C45974 /* InfoPlist.strings in Resources */,
-				74CC161314FB2EA600C45974 /* Credits.rtf in Resources */,
 				74CC161914FB2EA700C45974 /* MainMenu.xib in Resources */,
+				74CC162E14FB501000C45974 /* 37x-Checkmark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CC163814FB5A1700C45974 /* NovaToggleButton.m in Sources */,
+				74CC163114FB557A00C45974 /* NovaBaseButton.m in Sources */,
 				74CC160F14FB2EA600C45974 /* main.m in Sources */,
 				74CC161614FB2EA600C45974 /* AppDelegate.m in Sources */,
 			);
@@ -180,14 +192,6 @@
 				74CC160C14FB2EA600C45974 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		74CC161114FB2EA600C45974 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74CC161214FB2EA600C45974 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		74CC161714FB2EA700C45974 /* MainMenu.xib */ = {
@@ -222,7 +226,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -243,7 +247,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
