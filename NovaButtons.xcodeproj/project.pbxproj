@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74CC160314FB2EA600C45974 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CC160214FB2EA600C45974 /* Cocoa.framework */; };
+		74CC160D14FB2EA600C45974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74CC160B14FB2EA600C45974 /* InfoPlist.strings */; };
+		74CC160F14FB2EA600C45974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC160E14FB2EA600C45974 /* main.m */; };
+		74CC161314FB2EA600C45974 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 74CC161114FB2EA600C45974 /* Credits.rtf */; };
+		74CC161614FB2EA600C45974 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CC161514FB2EA600C45974 /* AppDelegate.m */; };
+		74CC161914FB2EA700C45974 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CC161714FB2EA700C45974 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74CC15FE14FB2EA600C45974 /* NovaButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovaButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CC160214FB2EA600C45974 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		74CC160514FB2EA600C45974 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		74CC160614FB2EA600C45974 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		74CC160714FB2EA600C45974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74CC160A14FB2EA600C45974 /* NovaButtons-Info.plist */ = {isa = PBXFileReference; path = "NovaButtons-Info.plist"; sourceTree = "<group>"; };
+		74CC160C14FB2EA600C45974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74CC160E14FB2EA600C45974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74CC161014FB2EA600C45974 /* NovaButtons-Prefix.pch */ = {isa = PBXFileReference; path = "NovaButtons-Prefix.pch"; sourceTree = "<group>"; };
+		74CC161214FB2EA600C45974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		74CC161414FB2EA600C45974 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		74CC161514FB2EA600C45974 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74CC161814FB2EA700C45974 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74CC15FB14FB2EA600C45974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC160314FB2EA600C45974 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74CC15F314FB2EA600C45974 = {
+			isa = PBXGroup;
+			children = (
+				74CC160814FB2EA600C45974 /* NovaButtons */,
+				74CC160114FB2EA600C45974 /* Frameworks */,
+				74CC15FF14FB2EA600C45974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74CC15FF14FB2EA600C45974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74CC15FE14FB2EA600C45974 /* NovaButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74CC160114FB2EA600C45974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74CC160214FB2EA600C45974 /* Cocoa.framework */,
+				74CC160414FB2EA600C45974 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74CC160414FB2EA600C45974 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74CC160514FB2EA600C45974 /* AppKit.framework */,
+				74CC160614FB2EA600C45974 /* CoreData.framework */,
+				74CC160714FB2EA600C45974 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		74CC160814FB2EA600C45974 /* NovaButtons */ = {
+			isa = PBXGroup;
+			children = (
+				74CC161414FB2EA600C45974 /* AppDelegate.h */,
+				74CC161514FB2EA600C45974 /* AppDelegate.m */,
+				74CC161714FB2EA700C45974 /* MainMenu.xib */,
+				74CC160914FB2EA600C45974 /* Supporting Files */,
+			);
+			path = NovaButtons;
+			sourceTree = "<group>";
+		};
+		74CC160914FB2EA600C45974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74CC160A14FB2EA600C45974 /* NovaButtons-Info.plist */,
+				74CC160B14FB2EA600C45974 /* InfoPlist.strings */,
+				74CC160E14FB2EA600C45974 /* main.m */,
+				74CC161014FB2EA600C45974 /* NovaButtons-Prefix.pch */,
+				74CC161114FB2EA600C45974 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74CC15FD14FB2EA600C45974 /* NovaButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CC161C14FB2EA700C45974 /* Build configuration list for PBXNativeTarget "NovaButtons" */;
+			buildPhases = (
+				74CC15FA14FB2EA600C45974 /* Sources */,
+				74CC15FB14FB2EA600C45974 /* Frameworks */,
+				74CC15FC14FB2EA600C45974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovaButtons;
+			productName = NovaButtons;
+			productReference = 74CC15FE14FB2EA600C45974 /* NovaButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74CC15F514FB2EA600C45974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = NovaCold;
+			};
+			buildConfigurationList = 74CC15F814FB2EA600C45974 /* Build configuration list for PBXProject "NovaButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74CC15F314FB2EA600C45974;
+			productRefGroup = 74CC15FF14FB2EA600C45974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74CC15FD14FB2EA600C45974 /* NovaButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74CC15FC14FB2EA600C45974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC160D14FB2EA600C45974 /* InfoPlist.strings in Resources */,
+				74CC161314FB2EA600C45974 /* Credits.rtf in Resources */,
+				74CC161914FB2EA700C45974 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74CC15FA14FB2EA600C45974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC160F14FB2EA600C45974 /* main.m in Sources */,
+				74CC161614FB2EA600C45974 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74CC160B14FB2EA600C45974 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CC160C14FB2EA600C45974 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74CC161114FB2EA600C45974 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CC161214FB2EA600C45974 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		74CC161714FB2EA700C45974 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CC161814FB2EA700C45974 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74CC161A14FB2EA700C45974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		74CC161B14FB2EA700C45974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		74CC161D14FB2EA700C45974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NovaButtons/NovaButtons-Prefix.pch";
+				INFOPLIST_FILE = "NovaButtons/NovaButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74CC161E14FB2EA700C45974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NovaButtons/NovaButtons-Prefix.pch";
+				INFOPLIST_FILE = "NovaButtons/NovaButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74CC15F814FB2EA600C45974 /* Build configuration list for PBXProject "NovaButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC161A14FB2EA700C45974 /* Debug */,
+				74CC161B14FB2EA700C45974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CC161C14FB2EA700C45974 /* Build configuration list for PBXNativeTarget "NovaButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC161D14FB2EA700C45974 /* Debug */,
+				74CC161E14FB2EA700C45974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74CC15F514FB2EA600C45974 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NovaButtons' target in the 'NovaButtons' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
